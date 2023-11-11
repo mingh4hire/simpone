@@ -1,0 +1,7 @@
+db.abc.insertOne({a:-121,b:23423})
+db.abc.insertOne({a:-122, b:1312})
+db.abc.insertOne({a:-123,b:121})
+db.abc.insertOne({a:-124, b:12321})
+db.abc.insertOne({a:-125, b:123})
+db.bulkOperations.insertOne({abc:33})
+db.bulkOperations.execute()
